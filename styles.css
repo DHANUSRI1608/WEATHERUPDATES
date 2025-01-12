@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#incity{
+    width:25vh;
+    height:5vh;
+    margin-left:27%;
+    font-size:3vh;
+    text-align:center;
+    font-weight:bold;
+    border-radius: 10px;
+    border-color: black;
+}
+#submit{
+    width:20vh;
+    height:5vh;
+    margin-left:33%;
+    border-radius:10px;
+    margin-top: 2vh; 
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    background-color: green; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#submit:hover {
+    background-color: darkgreen; 
+}
+#aftersubmit{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    font-size: 1.5rem;
+    margin:0;
+    margin-left:2%; 
+    border-radius: 10px;
+    width:30vh;
+    height:50vh;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+#city{
+    font-size:2rem;
+    margin: 10px 0;
+}
+#temp{
+    font-size:3vh;
+    font-weight:bold;
+    margin: 10px 0;
+}
+#humi{
+    font-size:3vh;
+    margin: 10px 0;
+}
+#desc{
+    font-style:italic;
+    font-weight:bold;
+    font-size:4vh;
+    margin: 10px 0;
+}
+#emoji{
+    font-size:8rem;
+    margin: 10px 0;
+     
+}
